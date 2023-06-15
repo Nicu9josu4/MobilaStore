@@ -1,0 +1,74 @@
+.shop {
+    width: 100%;
+    height: auto;
+    margin-bottom: 10rem;
+}
+
+.shopTitle {
+    margin-top: 100px;
+    text-align: center;
+    font-size: 40px;
+}
+
+.products {
+    width: 100%;
+    height: auto;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    place-items: center;
+}
+
+.product {
+    border-radius: 15px;
+    width: 300px;
+    height: 350px;
+    margin: 100px;
+    margin-top: 300px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.product img {
+    width: 400px;
+}
+
+.product .description {
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    gap: 3px;
+}
+
+.product:hover {
+    transition: 0.3s ease-in;
+    cursor: pointer;
+}
+
+
+.addToCartBtn {
+    background: rgb(2,0,36);
+    background: linear-gradient(90deg, rgba(2,0,36,1) 39%, rgba(9,19,121,1) 100%);
+    /* border: 2px solid black; */
+    outline: none;
+    border: none;
+    min-width: 100px;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 8px;
+    padding-bottom: 8px;
+    border-radius: 4px;
+    margin-top: 0.5rem;
+
+    font-weight: 500;
+    font-size: 1rem;
+    color: white;
+    transition: 0.3s ease-out;
+}
+
+.addToCartBtn:hover {
+    background: linear-gradient(90deg, rgba(9,19,121,1) 100%, rgba(2,0,36,1) 39%);
+    color: white;
+    cursor: pointer;
+}

@@ -1,0 +1,92 @@
+.footer {
+    width: 100%;
+    height: 300px;
+    background: rgb(2,0,36);
+    background: linear-gradient(90deg, rgba(2,0,36,1) 39%, rgba(9,19,121,1) 100%);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.footer-content-1 {
+    width: 30%;
+    display: flex;
+    gap: 3rem;
+}
+
+.column {
+    display: flex;
+    flex-direction: column;
+    gap: 0.2rem;
+}
+
+.column p {
+    color: var(--text-color);
+    cursor: pointer;
+    transition: 0.3s ease-out;
+    font-size: 1.2rem;
+}
+
+.column p:hover {
+    color: white;
+    transform: translateX(1rem);
+}
+
+
+
+
+
+/* footer content 2 */
+
+
+.footer-content-2 {
+    width: 30%;
+    display: flex;
+
+}
+
+.column2 {
+    display: flex;
+    flex-direction: column;
+    gap: 0.2rem;
+}
+
+.column2-header {
+    text-align: center;
+    color: white;
+    font-size: 1.5rem;
+    margin-bottom: 0.5rem;
+}
+.column2 p {
+    color: white;
+}
+
+
+/* footer content 3 */
+.footer-content-3 {
+    display: flex;
+    flex-direction: column;
+}
+
+.column3-header {
+    color: white;
+    margin-bottom: 1rem;
+    font-size: 2rem;
+}
+
+.column3 {
+    display: flex;
+    justify-content: center;
+    gap: 2rem;
+}
+
+.col-icon {
+    font-size: 4rem;
+    color: white;
+    cursor: pointer;
+    transition: 0.3s ease-out;
+}
+
+.col-icon:hover {
+    transform: scale(1.2);
+}
