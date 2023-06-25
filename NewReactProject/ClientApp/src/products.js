@@ -1,4 +1,4 @@
-import product1 from './assets/furniturebuy1.jpg'
+import product1 from './assets/1.png'
 
 
 
@@ -29,7 +29,7 @@ export const PRODUCTS = [
     {
         id: 4,
         productName: "furniture4",
-        price: 999311313131.0,
+        price: 999311.0,
         productImage: product1,
     },
 
