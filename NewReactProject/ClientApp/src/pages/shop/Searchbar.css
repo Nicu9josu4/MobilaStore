@@ -1,0 +1,29 @@
+.searchbar {
+    background-color: white;
+    width: 50%;
+    border-radius: 10px;
+    height: 2.5rem;
+    padding: 0.5%;
+    box-shadow: 0px 0px 8px white;
+
+    display: flex;
+    align-items: center;
+}
+
+.searchbar input {
+    background-color: transparent;
+    border: none;
+    height: 100%;
+    font-size: 1.2rem;
+    width: 100%;
+    margin-left: 1%;
+}
+
+.searchbar input:focus {
+    outline: none;
+}
+
+#search-icon {
+    color: royalblue;
+    padding-left: 1%;
+}

@@ -60,6 +60,7 @@
 } */
 
 .links a:hover {
+    cursor: pointer;
     color: white;
 }
 
@@ -80,6 +81,8 @@
 .iconsimage {
     margin-bottom: -8px;
 }
+
+
 
 
 /* 

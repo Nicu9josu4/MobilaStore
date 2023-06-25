@@ -11,9 +11,10 @@ const CartItem = (props) => {
     <div className='cartItem'>
         <img src={productImage} />
         <div className='description'>
-            <p><b> {productName} </b></p>
-
-            <p> ${price}</p>
+            <p className='product-name'>{productName}</p>
+<div className='dprice-center'>
+            <p className='product-price'>{price} MDL</p>
+            </div>
             <div className='countHandler'>
                 <button onClick={() => removeFromCart(id)}> - </button>
                 <input value={cartItems[id]}

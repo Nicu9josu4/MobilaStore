@@ -1,0 +1,11 @@
+.sec-cat1 {
+    width: 100%;
+    min-height: 100vh;
+}
+
+.sec-cat1-container {
+    min-height: 100vh;
+    padding: 2.5%;
+    background: rgb(125,147,255);
+    background: radial-gradient(circle, rgba(125,147,255,1) 0%, rgba(12,0,107,1) 100%);
+}
