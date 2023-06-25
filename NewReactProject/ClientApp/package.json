@@ -33,14 +33,14 @@
     "typescript": "^4.7.4"
   },
   "overrides": {
-    "autoprefixer": "10.4.5"
+    "autoprefixer": "^9.3.1"
   },
   "resolutions": {
     "css-what": "^5.0.1",
     "nth-check": "^3.0.1"
   },
   "scripts": {
-    "start": "react-scripts start",
+    "start": "react-scripts start --openssl-legacy-provider start",
     "build": "react-scripts build",
     "predeploy" : "npm run build",
     "deploy" : "gh-pages -d build",
