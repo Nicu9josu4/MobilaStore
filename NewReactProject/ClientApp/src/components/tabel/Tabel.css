@@ -1,0 +1,61 @@
+.Tabeladmin {
+    width: 100%;
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.tabel-container {
+    width: 80%;
+    height: auto;
+    border: 1px solid black;
+    border-bottom: none;
+
+    overflow: hidden;
+
+    display: flex;
+    flex-direction: column;
+}
+
+
+.tabel-headers {
+    display: flex;
+
+    height: 3rem;
+    width: 101%;
+}
+
+.header-tabel {
+    height: 100%;
+    width: 33%;
+
+    display: flex;
+    font-weight: bold;
+    font-size: 1.5rem;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    border-right: 1px solid black;
+    border-bottom: 1px solid black;
+}
+
+
+.tabel-line {
+    height: 2rem;
+    width: 101%;
+    display: flex;
+
+    border-bottom: 1px solid black;
+}
+
+.just-tabel {
+    height: 100%;
+    width: 33%;
+
+    display: flex;
+    align-items: center;
+    font-size: 1.2rem;
+    justify-content: flex-start;
+    border-right: 1px solid black;
+}

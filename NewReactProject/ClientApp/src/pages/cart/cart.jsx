@@ -11,11 +11,13 @@ export const Cart = () => {
     const totalAmmount = getTotalCartAmmount();
 
     const navigate = useNavigate();
-
+    const scrollToTop = () => {
+        window.scrollTo(0, 0)
+    }
 
 
     return <div className="cart">
-        <div> 
+        <div className="cart-header"> 
             <h1> Produsele selectate </h1>
         </div>
         <div className="cartItems">
@@ -27,9 +29,11 @@ export const Cart = () => {
         </div>
         {totalAmmount > 0 ? (
         <div className="checkout">
-            <p> Total: ${totalAmmount}</p>
-            <button onClick={() => navigate("/")}> Continua </button>
+            <p className="check-total"> Total: {totalAmmount} MDL</p>
+            <div className="cart-buttons">
+            <button onClick={() => navigate("/shop/#navbarid")}><p onClick={scrollToTop}> Continua</p> </button>
             <button> Cumpara </button>
+            </div>
         </div>
         ) : ( <h1>Inca nu ai adaugat nimic</h1>
         )}

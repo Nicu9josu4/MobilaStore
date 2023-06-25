@@ -33,6 +33,8 @@
     font-size: 2rem;
     color: var(--text-color);
     text-transform: uppercase;
+    text-shadow: 5px 0px white;
+    letter-spacing: 0.3rem;
 }
 
 .benefits {
