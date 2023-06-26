@@ -1,0 +1,23 @@
+{
+  "files": {
+    "main.css": "/mobilastore/static/css/main.ebdd6482.css",
+    "main.js": "/mobilastore/static/js/main.81164fbf.js",
+    "static/media/human.png": "/mobilastore/static/media/human.b792bb29cabcec831eb3.png",
+    "static/media/project1.jpg": "/mobilastore/static/media/project1.e9c960f1006f063e415d.jpg",
+    "static/media/contact.jpg": "/mobilastore/static/media/contact.96320ebd42b1adc1718b.jpg",
+    "static/media/project3.jpg": "/mobilastore/static/media/project3.894cd207f870e8f19703.jpg",
+    "static/media/2.jpg": "/mobilastore/static/media/2.e57489f2cb07f72f6e2b.jpg",
+    "static/media/furniture2.jpeg": "/mobilastore/static/media/furniture2.9f20fd19580dfd824ef5.jpeg",
+    "static/media/echipa3.jpg": "/mobilastore/static/media/echipa3.fcf9c11d7abb412f4539.jpg",
+    "static/media/project2.jpg": "/mobilastore/static/media/project2.9736ef5cca781bf4ab9f.jpg",
+    "static/media/1.png": "/mobilastore/static/media/1.d3f4ec0d6c4aa58dda8d.png",
+    "static/media/delivery.png": "/mobilastore/static/media/delivery.e49cabcddb93853c6197.png",
+    "index.html": "/mobilastore/index.html",
+    "main.ebdd6482.css.map": "/mobilastore/static/css/main.ebdd6482.css.map",
+    "main.81164fbf.js.map": "/mobilastore/static/js/main.81164fbf.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.ebdd6482.css",
+    "static/js/main.81164fbf.js"
+  ]
+}
