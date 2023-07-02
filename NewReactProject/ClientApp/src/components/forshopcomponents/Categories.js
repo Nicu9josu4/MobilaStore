@@ -3,6 +3,8 @@ import "../../pages/shop/shop.css"
 import { Link } from "react-router-dom"
 
 const Categories = () => {
+
+    
   return (
     <div className="categories">
             <div className="categories-container">

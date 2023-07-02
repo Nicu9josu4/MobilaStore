@@ -8,11 +8,15 @@ export const Product = (props) => {
     const { addToCart, cartItems  } = useContext(ShopContext);
 
     const cartItemAmmount = cartItems[id]
-    return <div className="product"> 
+
+    const ClickedProductInfo = () => {
+        document.getElementById("clickedproductt").style.display = "flex";
+    }
+    return <div className="product" onClick={ClickedProductInfo}> 
     <div className="product-container">
         <div className="product-overlay"></div>
     <div className="product-image">
-    <img src={productImage} />
+    <img src={productImage} alt="none"/>
     </div>
     <div className="description">
         <p className="product-name">
@@ -21,8 +25,10 @@ export const Product = (props) => {
 
         <p className="product-price"> {price} MDL</p>
     </div>
-    <button className="addToCartBtn" onClick={() => addToCart(id)}>
+    <button id="addbtnid" className="addToCartBtn" onClick={() => addToCart(id)}>
         Adauga In Cos {cartItemAmmount > 0 && <> ({cartItemAmmount})</>}</button>
         </div>
+        
+        
     </div>
 }

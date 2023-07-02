@@ -60,6 +60,7 @@ const Contactpage = () => {
 <div className='contact-content-2'>
   <div className='c-map'>
   <iframe
+  title="locationmap"
    src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2723.667245529167!2d28.719369476826795!3d46.948578733184526!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x40c98025dc65dd95%3A0xe7b2f7550c5497a6!2sAqua%20Magic!5e0!3m2!1sru!2s!4v1687014417077!5m2!1sru!2s" 
   width="1920" 
   height="1080" 

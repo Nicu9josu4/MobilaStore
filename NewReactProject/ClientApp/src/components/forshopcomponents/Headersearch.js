@@ -2,7 +2,7 @@ import { React, useState }from "react";
 import "../../pages/shop/shop.css"
 // import { PRODUCTS } from "../../products"
 // import { Product } from "./product"
-import { Link } from "react-router-dom"
+// import { Link } from "react-router-dom"
 
 import List from '../../pages/shop/List'
 import Searchbar from '../../pages/shop/Searchbar'

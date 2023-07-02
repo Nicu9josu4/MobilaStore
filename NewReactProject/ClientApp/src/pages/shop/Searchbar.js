@@ -2,7 +2,7 @@ import React, { useState } from 'react'
 import './Searchbar.css'
 
 import { FaSearch } from "react-icons/fa"
-import List from './List'
+// import List from './List'
 
 const Searchbar = ({setResults}) => {
 

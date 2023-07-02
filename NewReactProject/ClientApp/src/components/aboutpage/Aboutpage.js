@@ -17,7 +17,7 @@ const Aboutpage = () => {
 
         <div className='team-part'>
           <div className='team-image'>
-            <img src={humanimg}></img>
+            <img src={humanimg} alt="none"></img>
           </div>
 {/* start team part */}
           <div className='team-info'>
@@ -47,7 +47,7 @@ asdkl;askdl;asl;ksald; kls;adk l;askdl; askl;das kl;dsal;d k;laskd l;askd;l ak;l
 
 <div className='team-part'>
           <div className='team-image'>
-            <img src={humanimg}></img>
+            <img src={humanimg} alt="none"></img>
           </div>
 {/* start team part */}
           <div className='team-info'>
@@ -79,7 +79,7 @@ asdkl;askdl;asl;ksald; kls;adk l;askdl; askl;das kl;dsal;d k;laskd l;askd;l ak;l
 
 <div className='team-part'>
           <div className='team-image'>
-            <img src={humanimg}></img>
+            <img src={humanimg} alt="none"></img>
           </div>
 {/* start team part */}
           <div className='team-info'>
@@ -148,7 +148,7 @@ Suntem mândri să colaborăm cu clienți individuali, designeri de interior, de
 </div>
 
 <div className='company-logo'>
-  <img src={humanimg}></img>
+  <img src={humanimg} alt="none"></img>
 </div>
         </div>
       </div>
