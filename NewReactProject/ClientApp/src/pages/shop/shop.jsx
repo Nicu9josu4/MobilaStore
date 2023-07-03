@@ -2,7 +2,9 @@ import { React, useState }from "react";
 import { PRODUCTS } from "../../products"
 import { Product } from "./product"
 import './shop.css'
-import { Link } from "react-router-dom"
+import { ClickedProduct } from "./clickedproduct"
+import clickedimgg from "../../assets/1.png"
+// import { Link } from "react-router-dom"
 
 import List from './List'
 import Searchbar from './Searchbar'
@@ -44,6 +46,23 @@ export const Shop = () => {
                 <Product data={product}/>
             )) }
         </div>
+
+        <div className="clicked-products">
+            { PRODUCTS.map((product) => (
+                <ClickedProduct data={product}/>
+            )) }
+        </div>
+        {/* <div className="clicked-product">
+            <div className="clicked-product-container">
+                <div className="clicked-img">
+                    <img src={clickedimgg}></img>
+                </div>
+
+                <div className="clicked-product-info">
+                    <div className="product-title"></div>
+                </div>
+            </div>
+        </div> */}
         </div>
 
 

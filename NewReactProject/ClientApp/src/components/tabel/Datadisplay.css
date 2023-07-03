@@ -1,0 +1,16 @@
+.Datadisplay {
+    width: 100%;
+    min-height: 100vh;
+    background-color: #f5f5f5;
+}
+
+.data-container {
+    padding: 2rem;
+}
+.user-card {
+    background-color: white;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    padding: 10px;
+    margin-bottom: 10px;
+  }

@@ -26,7 +26,7 @@ const Footer = () => {
       <Link to='/proiecte'><p onClick={scrollToTop}> Proiecte</p></Link>
       <Link to='/about'><p onClick={scrollToTop}>Echipa</p></Link>
       <Link to='/services'><p onClick={scrollToTop}>Servicii</p></Link>
-      <Link to='/help'><p onClick={scrollToTop}>Ajutor</p></Link>
+      <Link to='/contact'><p onClick={scrollToTop}>Ajutor</p></Link>
       </div>
 
 

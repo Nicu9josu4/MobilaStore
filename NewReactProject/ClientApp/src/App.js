@@ -11,6 +11,8 @@ import Footer from './components/footercomp/Footer'
 import Tabelpage from './components/tabel/Tabel'
 import Proiectepage from './components/footercomp/Proiecte/Proiectepage'
 import Profile from './components/profile/Profilepage'
+import Table from './components/tabel/Tabel'
+import Admindata from './components/tabel/Datadisplay'
 
 // categorii
 import Bucatarii from './components/categories/Cat1/Bucatarii'
@@ -40,6 +42,8 @@ function App() {
           <Route path="/usi" element={<Usi />} />
           <Route path="/sufragerii" element={<Sufragerii />} />
           <Route path="/altele" element={<Altele />} />
+          <Route path="/table" element={<Table />} />
+          <Route path="/admindata" element={<Admindata /> } />
         </Routes>
         <Footer />
       </Router>

@@ -2,7 +2,7 @@ import React from 'react'
 import "./Homepage.css"
 
 import { Link } from "react-router-dom"
-import img1 from "../../assets/delivery.png"
+// import img1 from "../../assets/delivery.png"
 
 const Homepage = () => {
   return (

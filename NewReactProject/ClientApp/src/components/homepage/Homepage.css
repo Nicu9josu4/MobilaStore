@@ -145,8 +145,8 @@
     padding-right: 3rem;
     
     border-radius: 4px;
-min-width: 13rem;
-text-align: center;
+    width: 13rem;
+    text-align: center;
     font-weight: 500;
     font-size: 2rem;
     color: var(--text-color);
@@ -164,6 +164,7 @@ text-align: center;
 }
 
 .buttons {
+    width: 100%;
     display: flex;
     justify-content: center;
     gap: 3rem;
@@ -181,8 +182,8 @@ text-align: center;
     padding-right: 3rem;
     
     border-radius: 4px;
-min-width: 13rem;
-text-align: center;
+    width: 13rem;
+    text-align: center;
     font-weight: 500;
     font-size: 2rem;
     color: var(--text-color);
@@ -196,4 +197,18 @@ text-align: center;
     /* transform: translateX(1rem); */
     filter: blur(2px);
     opacity: 1;
+}
+
+
+
+@media screen and (max-width: 1024px) {
+
+    .buttons {
+        gap: 1rem;
+    }
+
+    .home-btn, .home-btn-right {
+        padding-left: 0.1rem;
+        padding-right: 0.1rem;
+    }
 }
