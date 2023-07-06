@@ -8,10 +8,10 @@
     }
   },
   "profiles": {
-    "NewReactProject": {
+    "MobilaStore": {
       "commandName": "Project",
       "launchBrowser": true,
-      "applicationUrl": "http://localhost:5077",
+      "applicationUrl": "http://localhost:5000",
       "environmentVariables": {
         "ASPNETCORE_ENVIRONMENT": "Development",
         "ASPNETCORE_HOSTINGSTARTUPASSEMBLIES": "Microsoft.AspNetCore.SpaProxy"
