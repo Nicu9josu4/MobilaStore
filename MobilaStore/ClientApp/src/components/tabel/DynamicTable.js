@@ -6,7 +6,7 @@ const DynamicTable = () => {
     useEffect(() => {
         const fetchData = async () => {
             try {
-                const response = await fetch('http://localhost:5000/peoples');
+                const response = await fetch('http://localhost:5000/api/peoples');
                 const data = await response.json();
                 setTableData(data);
             } catch (error) {

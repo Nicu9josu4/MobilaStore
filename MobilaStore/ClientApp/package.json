@@ -2,6 +2,7 @@
   "name": "try-number-one",
   "version": "0.1.0",
   "private": true,
+  "proxy": "http://localhost:5000",
   "dependencies": {
     "@emotion/react": "^11.11.1",
     "@emotion/styled": "^11.11.0",
@@ -12,6 +13,7 @@
     "axios": "^1.4.0",
     "google-map-react": "^2.2.1",
     "hero-slider": "^3.1.0",
+    "http-proxy-middleware": "^2.0.6",
     "phosphor-react": "^1.4.1",
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
@@ -22,6 +24,7 @@
     "web-vitals": "^2.1.4"
   },
   "devDependencies": {
+    "@babel/plugin-proposal-private-property-in-object": "^7.21.11",
     "ajv": "^8.11.0",
     "cross-env": "^7.0.3",
     "eslint": "^8.22.0",

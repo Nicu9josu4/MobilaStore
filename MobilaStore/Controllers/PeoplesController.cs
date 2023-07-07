@@ -4,7 +4,7 @@ using Newtonsoft.Json.Linq;
 namespace MobilaStore.Controllers
 {
     [ApiController]
-    [Route("[controller]")]
+    [Route("api/[controller]")]
     public class PeoplesController : ControllerBase
     {
         public IActionResult Get()
